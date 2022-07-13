@@ -1,1 +1,1 @@
-demo if-calculator.netlify.app
+Demo: https://if-calculator.netlify.app/
