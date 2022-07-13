@@ -1,0 +1,13 @@
+.calculator {
+  display: grid;
+  grid-template-columns: repeat(4, 40px);
+}
+
+input {
+  grid-column: span 4;
+  text-align: end;
+}
+ 
+#equal {
+  grid-column: span 2;
+}

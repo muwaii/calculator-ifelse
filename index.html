@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<head lang="en">
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="style.css">
+  <title>Caculator</title>
+</head>
+<body>
+  <div class="container">
+    <div class="calculator">
+      <input class="input" placeholder="0" />
+      <button onclick="clearDisplay()" class="clear-btn">C</button>
+      <button onclick="delInput()">DEL</button>
+      <button onclick="percentOp()">%</button>
+      <button onclick="operator(value)" value="/">/</button>
+      <button onclick="clickHandler(7)">7</button>
+      <button onclick="clickHandler(8)">8</button>
+      <button onclick="clickHandler(9)">9</button>
+      <button onclick="operator(value)" value="*">x</button>
+      <button onclick="clickHandler(4)">4</button>
+      <button onclick="clickHandler(5)">5</button>
+      <button onclick="clickHandler(6)">6</button>
+      <button onclick="operator(value)" value="-">-</button>
+      <button onclick="clickHandler(1)">1</button>
+      <button onclick="clickHandler(2)">2</button>
+      <button onclick="clickHandler(3)">3</button>
+      <button onclick="operator(value)" value="+">+</button>
+      <button onclick="clickHandler('.')">.</button>
+      <button onclick="clickHandler(0)">0</button>
+      <button id="equal" onclick="result()">=</button>
+    </div>
+  </div>
+  <script src="main.js"></script>
+</body>
